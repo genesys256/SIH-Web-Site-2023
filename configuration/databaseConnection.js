@@ -9,10 +9,10 @@ const mysql = require("mysql");
 
 	});
 
-	// con.query("CREATE DATABASE IF NOT EXISTS lawsystem", function (err, result) {
- //    if (err) throw err;
- //    console.log("Database created");
- //  });
+// 	con.query("CREATE DATABASE IF NOT EXISTS lawsystem", function (err, result) {
+//     if (err) throw err;
+//     console.log("Database created");
+//   });
 
    con.connect(function(err){
       if (err) throw err;
@@ -31,4 +31,4 @@ const mysql = require("mysql");
 //   });
 // });
 
-module.exports= con ; 
+module.exports= con ;
